@@ -1,5 +1,5 @@
 //Alexa Whatsapp User Bot
-//Created BY Sadeesha
+//Created BY amaan
 
 var commands = [];
 
