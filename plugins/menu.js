@@ -19,7 +19,7 @@ let desc = `
 _*⌛Uptime:*_  ${runtime(process.uptime())}
 _*📟Ram usage:*_ _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 _*🧿HostName:*_ _${os.hostname()}_
-_*🧑🏻‍💻Owner:*_ _Sadeesha Tharumin_
+_*🧑🏻‍💻Owner:*_ _ammu editz_
 
 ┌────────────
 ❖ *📚ALEXA ALL COMMANDS📚*
@@ -44,7 +44,7 @@ _*🧑🏻‍💻Owner:*_ _Sadeesha Tharumin_
 │✑ _Coming Soon Another Cmd_
 └─────────────
 
-> ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ
+> ᴄʀᴇᴀᴛᴇᴅ ʙʏ ammu 
 > ᴛʜᴀɴᴋ ʏᴏᴜ ᴜꜱɪɴ ᴀʟᴇxᴀ 💗
 `
 return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/z52R6XR/bg.jpg`},caption: desc},{quoted: mek})
